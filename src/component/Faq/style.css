@@ -1,0 +1,49 @@
+.faq h1 {
+  font-family: "God", Courier, monospace;
+  color: red;
+  font-size: 2.5rem !important;
+}
+
+.faq .panel {
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+.faq .panel-default > .panel-heading {
+  border: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.faq .panel-default .panel-title a {
+  display: block;
+  font-size: 1.5rem;
+  color: white !important;
+  text-decoration: none;
+}
+
+.faq .panel-default .panel-title a:after {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-size: 2rem;
+  content: "\f106";
+  color: #0d0d0e;
+  float: right;
+  margin-top: -12px;
+}
+
+.faq .panel-default .panel-title a.collapsed:after {
+  content: "\f107";
+}
+
+.faq .panel-default .panel-body {
+  font-size: 1.2rem;
+  font-family: "ABeeZee", sans-serif;
+}
+
+@media only screen and (max-width: 1000px) {
+  .faq h1 {
+    font-size: 1.7rem !important;
+    text-shadow: 1px 1px #8d2424;
+  }
+}

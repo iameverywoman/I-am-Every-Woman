@@ -1,0 +1,55 @@
+.discord-icon {
+  width: 40px;
+}
+
+.twitter-icon {
+  width: 40px;
+}
+
+i {
+  font-size: 30px;
+}
+
+/* footer {
+  background-color: #373c3e;
+} */
+
+footer img {
+  width: 30px;
+}
+
+.follow {
+  background-color: #e7eff9;
+  background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+  box-shadow: 5px 5px #888888;
+  margin: 20px 0px;
+}
+
+.btn-twitter {
+  background-color: #079ee8;
+  border: 2px solid black;
+  box-shadow: 5px 5px #888888;
+  width: 100%;
+  padding: 10px;
+}
+
+.btn-discord {
+  background-color: #5865f2;
+  border: 2px solid black;
+  box-shadow: 5px 5px #888888;
+  width: 100%;
+  padding: 10px;
+}
+
+footer h1 {
+  font-family: "God", Courier, monospace;
+  color: red;
+  font-size: 2.5rem !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  footer h1 {
+    font-size: 1.7rem !important;
+    text-shadow: 1px 1px #8d2424;
+  }
+}

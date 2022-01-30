@@ -32,7 +32,7 @@ const Card = styled(Paper)`
   display: inline-block;
   background-color: var(--card-background-lighter-color) !important;
   margin: 5px;
-  padding: 24px;
+  padding: 10px;
 `;
 
 const MintButtonContainer = styled.div`
@@ -60,7 +60,24 @@ const MintButtonContainer = styled.div`
   }
 `;
 
-const ConnectButton = styled(WalletMultiButton)``;
+const ConnectButton = styled(WalletMultiButton)`
+  width: 250px;
+  background: #ed213a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #93291e,
+    #ed213a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #93291e,
+    #ed213a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  justify-content: center !important;
+  font-size: 1.2em;
+  color: white !important;
+`;
 
 const SolExplorerLink = styled.a`
   color: var(--title-text-color);
@@ -194,7 +211,7 @@ const Home = (props: HomeProps) => {
 
   const renderCounter = ({ days, hours, minutes, seconds }: any) => {
     return (
-      <div>
+      <div style={{ width: "50% !important" }}>
         <Card elevation={1}>
           <h1>{days}</h1>
           <br />
@@ -345,16 +362,21 @@ const Home = (props: HomeProps) => {
         <MintContainer>
           {wallet && isActive && whitelistEnabled && whitelistTokenBalance > 0 && (
             <>
-              <h3>
+              <p style={{ color: "black", fontWeight: "bold" }}>
                 You have {whitelistTokenBalance} whitelist mint(s) remaining.
-              </h3>
+              </p>
             </>
           )}
           {wallet && isActive && (
             /* <p>Total Minted : {100 - (itemsRemaining * 100 / itemsAvailable)}%</p>}*/
-            <h3>
-              TOTAL MINTED : {itemsRedeemed} / {itemsAvailable}
-            </h3>
+            <>
+              <p style={{ color: "black", fontWeight: "bold" }}>
+                TOTAL MINTED: {itemsRedeemed} / {itemsAvailable}
+              </p>
+              <p style={{ color: "black", fontWeight: "bold" }}>
+                Price: 0.9 SOL
+              </p>
+            </>
           )}
           <br />
           <MintButtonContainer>
@@ -368,7 +390,13 @@ const Home = (props: HomeProps) => {
                 renderer={renderCounter}
               />
             ) : !wallet ? (
-              <ConnectButton>Connect Wallet</ConnectButton>
+              <>
+                <p style={{ color: "black", fontWeight: "bold" }}>
+                  {" "}
+                  Please Connect Wallet to Mint
+                </p>
+                <ConnectButton>Connect Wallet</ConnectButton>
+              </>
             ) : candyMachine?.state.gatekeeper &&
               wallet.publicKey &&
               wallet.signTransaction ? (

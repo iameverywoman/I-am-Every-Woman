@@ -1,0 +1,38 @@
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url(../../assets/images/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.masthead h1 {
+  font-family: "God", Courier, monospace;
+  color: red;
+}
+
+nav h3 {
+  font-family: "God", Courier, monospace;
+  color: red;
+  text-shadow: 2px 2px #8d2424;
+}
+
+.nav-link {
+  color: #110808 !important;
+  text-shadow: 0.5px 0.5px #f8f6f6;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+}
+
+.navbar-nav a:hover {
+  text-shadow: 2px 2px #110808;
+  color: red !important;
+  border-bottom: 2px solid red;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    background-color: #f0f0f0;
+  }
+}
