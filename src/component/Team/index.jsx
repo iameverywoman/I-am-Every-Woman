@@ -17,13 +17,13 @@ export default function Team() {
           <div className="col-md-12 mb-5">
             <h1 className="fw-light t-shadow text-center">The Team</h1>
           </div>
-          <div class="col-md-3 col-sm-3">
-            <div class="team-member">
-              <div class="team-img">
-                <img src={Dan} alt="team member" class="img-fluid" />
+          <div className="col-md-3 col-sm-3">
+            <div className="team-member">
+              <div className="team-img">
+                <img src={Dan} alt="team member" className="img-fluid" />
               </div>
-              <div class="team-hover">
-                <div class="desk pt-5">
+              <div className="team-hover">
+                <div className="desk pt-5">
                   <p>
                     Co-Founder Fireworks Game, Co-Founder Investgoo, Synthetic
                     indices Trader
@@ -31,18 +31,18 @@ export default function Team() {
                 </div>
               </div>
             </div>
-            <div class="team-title">
+            <div className="team-title">
               <h5>Dan Cruz</h5>
               <span>Founder</span>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3">
-            <div class="team-member">
-              <div class="team-img">
-                <img src={Jhasper} alt="team member" class="img-fluid" />
+          <div className="col-md-3 col-sm-3">
+            <div className="team-member">
+              <div className="team-img">
+                <img src={Jhasper} alt="team member" className="img-fluid" />
               </div>
-              <div class="team-hover">
-                <div class="desk pt-5">
+              <div className="team-hover">
+                <div className="desk pt-5">
                   <br />
                   <p>
                     CEO Kaos Trading Club, Psychologist, Analyst Trader Position
@@ -51,88 +51,88 @@ export default function Team() {
                 </div>
               </div>
             </div>
-            <div class="team-title">
+            <div className="team-title">
               <h5>Jhasper Soliz</h5>
               <span>Founder</span>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3">
-            <div class="team-member">
-              <div class="team-img">
-                <img src={Lusmi} alt="team member" class="img-fluid" />
+          <div className="col-md-3 col-sm-3">
+            <div className="team-member">
+              <div className="team-img">
+                <img src={Lusmi} alt="team member" className="img-fluid" />
               </div>
-              <div class="team-hover">
-                <div class="desk pt-5">
+              <div className="team-hover">
+                <div className="desk pt-5">
                   Economist, DAY TRADER, High frequency trade
                 </div>
               </div>
             </div>
-            <div class="team-title">
+            <div className="team-title">
               <h5>Lusmilingdx</h5>
               <span>Founder</span>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3">
-            <div class="team-member">
-              <div class="team-img">
-                <img src={Aytha} alt="team member" class="img-fluid" />
+          <div className="col-md-3 col-sm-3">
+            <div className="team-member">
+              <div className="team-img">
+                <img src={Aytha} alt="team member" className="img-fluid" />
               </div>
-              <div class="team-hover">
-                <div class="desk pt-5">
+              <div className="team-hover">
+                <div className="desk pt-5">
                   <p>Cryptocurrency Investor ,Day Trader</p>
                 </div>
               </div>
             </div>
-            <div class="team-title">
+            <div className="team-title">
               <h5>Aytha Suarezn</h5>
               <span className="text-danger">New </span>
               <span>Founder</span>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3">
-            <div class="team-member">
-              <div class="team-img">
-                <img src={Tere} alt="team member" class="img-fluid" />
+          <div className="col-md-3 col-sm-3">
+            <div className="team-member">
+              <div className="team-img">
+                <img src={Tere} alt="team member" className="img-fluid" />
               </div>
-              <div class="team-hover">
-                <div class="desk pt-5">
+              <div className="team-hover">
+                <div className="desk pt-5">
                   <p>Computer scientist, Analyst Trader, Trader</p>
                 </div>
               </div>
             </div>
-            <div class="team-title">
+            <div className="team-title">
               <h5>Teresforbest</h5>
               <span>Co - Founder</span>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3">
-            <div class="team-member">
-              <div class="team-img">
-                <img src={Alopecan} alt="team member" class="img-fluid" />
+          <div className="col-md-3 col-sm-3">
+            <div className="team-member">
+              <div className="team-img">
+                <img src={Alopecan} alt="team member" className="img-fluid" />
               </div>
-              <div class="team-hover">
-                <div class="desk pt-5">
+              <div className="team-hover">
+                <div className="desk pt-5">
                   <p>Actions Investor, Day Trader</p>
                 </div>
               </div>
             </div>
-            <div class="team-title">
+            <div className="team-title">
               <h5>Alopecan</h5>
               <span>Co - Founder</span>
             </div>
           </div>
-          <div class="col-md-3 col-sm-3">
-            <div class="team-member">
-              <div class="team-img">
-                <img src={Ryan} alt="team member" class="img-fluid" />
+          <div className="col-md-3 col-sm-3">
+            <div className="team-member">
+              <div className="team-img">
+                <img src={Ryan} alt="team member" className="img-fluid" />
               </div>
-              <div class="team-hover">
-                <div class="desk pt-5">
+              <div className="team-hover">
+                <div className="desk pt-5">
                   <p>Site Developer/Technician, Expert Blockchain Developer</p>
                 </div>
               </div>
             </div>
-            <div class="team-title">
+            <div className="team-title">
               <h5>Ryan</h5>
               <span className="text-danger">New</span>
               <span> Co - Founder </span>
