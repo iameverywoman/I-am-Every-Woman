@@ -3,7 +3,7 @@
   "name": "Mint Page",
   "icons": [
     {
-      "src": "logo.jpg",
+      "src": "logo512.png",
       "type": "image/jpg",
       "sizes": "358x358"
     }
