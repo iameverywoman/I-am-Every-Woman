@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Roadmap1 from "../../assets/images/roadmap-1.png";
+import Roadmap1 from "../../assets/images/roadmap-1.jpg";
 import Roadmap2 from "../../assets/images/roadmap-2.png";
 
 export default function Roadmap() {

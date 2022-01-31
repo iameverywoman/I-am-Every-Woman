@@ -151,7 +151,7 @@ export default function Faq() {
                   aria-labelledby="heading3"
                 >
                   <div className="panel-body px-3 mb-4">
-                    <p className="text-light">12 february</p>
+                    <p className="text-light">19 february</p>
                   </div>
                 </div>
               </div>
@@ -184,7 +184,7 @@ export default function Faq() {
                   aria-labelledby="heading2"
                 >
                   <div className="panel-body px-3 mb-4">
-                    <p className="text-light">1 sol</p>
+                    <p className="text-light">0.9 SOL</p>
                   </div>
                 </div>
               </div>
