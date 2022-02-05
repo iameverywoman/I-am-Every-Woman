@@ -1,7 +1,7 @@
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url(../../assets/images/banner2.png);
+  background-image: url(../../assets/images/banner.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,5 +37,10 @@ nav h3 {
   .navbar {
     background-color: #3f0d12;
     background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+  }
+  .masthead .desc {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }

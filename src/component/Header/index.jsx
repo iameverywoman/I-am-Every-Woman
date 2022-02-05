@@ -57,7 +57,7 @@ export default function Header() {
             <div className="col-md-6 col-12">
               <h1 className="fw-light t-shadow">Welcomer to</h1>
               <h1 className="fw-light t-shadow">War Of Kaos</h1>
-              <p className="lead text-justify">
+              <p className="lead text-justify desc">
                 First NFT collection focused on the decentralization of E-SPORTS
                 under the SOLANA network We plan to build our own PROFESSIONAL
                 TEAM and compete in games like League of Legends, Warzone,
