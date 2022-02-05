@@ -16,7 +16,7 @@ export default function Faq() {
               role="tablist"
               aria-multiselectable="true"
             >
-              <div className="panel panel-default">
+              <div className="panel panel-default" data-aos="fade-left">
                 <div
                   className="panel-heading p-3 mb-3"
                   role="tab"
@@ -53,7 +53,7 @@ export default function Faq() {
                 </div>
               </div>
 
-              <div className="panel panel-default">
+              <div className="panel panel-default" data-aos="fade-left">
                 <div
                   className="panel-heading p-3 mb-3"
                   role="tab"
@@ -90,7 +90,7 @@ export default function Faq() {
                 </div>
               </div>
 
-              <div className="panel panel-default">
+              <div className="panel panel-default" data-aos="fade-left">
                 <div
                   className="panel-heading p-3 mb-3"
                   role="tab"
@@ -123,7 +123,7 @@ export default function Faq() {
                 </div>
               </div>
 
-              <div className="panel panel-default">
+              <div className="panel panel-default" data-aos="fade-left">
                 <div
                   className="panel-heading p-3 mb-3"
                   role="tab"
@@ -156,7 +156,7 @@ export default function Faq() {
                 </div>
               </div>
 
-              <div className="panel panel-default">
+              <div className="panel panel-default" data-aos="fade-left">
                 <div
                   className="panel-heading p-3 mb-3"
                   role="tab"
