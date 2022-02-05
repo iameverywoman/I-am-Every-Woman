@@ -55,7 +55,7 @@ export default function Header() {
         <div className="container h-100">
           <div className="row h-100 align-items-center">
             <div className="col-md-6 col-12">
-              <h1 className="fw-light t-shadow">Welcomer to</h1>
+              <h1 className="fw-light t-shadow">Welcome to</h1>
               <h1 className="fw-light t-shadow">War Of Kaos</h1>
               <p className="lead text-justify desc">
                 First NFT collection focused on the decentralization of E-SPORTS
