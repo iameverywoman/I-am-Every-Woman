@@ -84,7 +84,7 @@ export default function Team() {
               </div>
             </div>
             <div className="team-title">
-              <h5>Aytha Suarezn</h5>
+              <h5>Aytha Suarez</h5>
               <span className="text-danger">New </span>
               <span>Founder</span>
             </div>
