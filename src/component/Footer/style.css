@@ -13,6 +13,10 @@ i {
   font-size: 30px;
 }
 
+a button span {
+  color: black !important;
+}
+
 /* footer {
   background-color: #373c3e;
 } */
