@@ -1,10 +1,10 @@
 .team {
-  background: url("../../assets/images/bg-about.jpg");
-  background-size: cover;
+  background-color: #28282f;
 }
 
 .team h1 {
-  font-family: "God", Courier, monospace;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
   color: red;
   font-size: 2.5rem !important;
 }
@@ -114,7 +114,7 @@
   width: 100%;
 }
 .team-title h5 {
-  color: #8d2424;
+  color: white;
   margin-bottom: 0px;
   display: block;
   text-transform: uppercase;
@@ -122,7 +122,7 @@
 .team-title span {
   font-size: 12px;
   text-transform: uppercase;
-  color: #222;
+  color: white;
   letter-spacing: 1px;
 }
 

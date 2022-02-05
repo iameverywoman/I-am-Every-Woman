@@ -1,3 +1,7 @@
+.featured {
+  background-color: #28282f;
+}
+
 .featured-item {
   height: 200px;
   display: flex;

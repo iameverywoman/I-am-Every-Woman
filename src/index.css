@@ -2,8 +2,9 @@
   font-family: "god";
   src: url("./assets/godofwar.TTF") format("truetype");
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@5003&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -11,10 +12,10 @@ html {
 
 body {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #303030;
+  background-color: #040405;
   color: #ffffff;
 }
 
@@ -23,7 +24,7 @@ h1 {
 }
 
 .t-shadow {
-  text-shadow: 3px 3px #8d2424;
+  text-shadow: 2px 2px #928787;
 }
 
 @media only screen and (max-width: 1300px) {

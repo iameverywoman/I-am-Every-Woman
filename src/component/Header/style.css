@@ -1,26 +1,28 @@
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url(../../assets/images/banner.png);
+  background-image: url(../../assets/images/banner2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .masthead h1 {
-  font-family: "God", Courier, monospace;
+  font-family: "Spartan", sans-serif;
   color: red;
 }
 
 nav h3 {
   font-family: "God", Courier, monospace;
+  padding-top: 10px;
   color: red;
   text-shadow: 2px 2px #8d2424;
 }
 
 .nav-link {
-  color: #110808 !important;
-  text-shadow: 0.5px 0.5px #f8f6f6;
+  font-family: "Poppins", sans-serif;
+  color: white !important;
+  text-shadow: 0.5px 0.5px #0c0c0c;
   font-size: 1.5rem !important;
   font-weight: bold;
 }
@@ -33,6 +35,7 @@ nav h3 {
 
 @media only screen and (max-width: 1000px) {
   .navbar {
-    background-color: #f0f0f0;
+    background-color: #3f0d12;
+    background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
   }
 }

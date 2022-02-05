@@ -8,7 +8,7 @@ export default function Faq() {
         <div className="row py-5">
           <div className="col-md-10 col-12 ml-auto mr-auto">
             <h1 className="fw-light t-shadow text-center mb-5">
-              Frequently Asked Questionss
+              <span className="text-light">Frequently Asked</span> Questionss
             </h1>
             <div
               className="panel-group"

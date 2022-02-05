@@ -1,40 +1,18 @@
 .about {
-  background: url(../../assets/images/bg.jpg);
-  position: relative;
-  background-size: cover;
+  background-color: #040405;
 }
 
 .about h1 {
   font-size: 2.5rem !important;
-  font-family: "God", Courier, monospace;
-  color: red;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: white;
 }
 
 .logo-trading {
   width: 100px;
   display: block;
   margin: 0 auto;
-}
-
-.custom-shape-divider-bottom-1643483443 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1643483443 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 56px;
-}
-
-.custom-shape-divider-bottom-1643483443 .shape-fill {
-  fill: #ffffff;
 }
 
 @media only screen and (max-width: 1000px) {

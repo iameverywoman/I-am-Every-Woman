@@ -30,7 +30,9 @@ const splTokenName = process.env.REACT_APP_SPL_TOKEN_NAME
 
 const Card = styled(Paper)`
   display: inline-block;
-  background-color: var(--card-background-lighter-color) !important;
+  background-color: #f9c1b1;
+  background-image: linear-gradient(315deg, #f9c1b1 0%, #fb8085 74%);
+
   margin: 5px;
   padding: 10px;
 `;
@@ -214,22 +216,18 @@ const Home = (props: HomeProps) => {
       <div style={{ width: "50% !important" }}>
         <Card elevation={1}>
           <h1>{days}</h1>
-          <br />
           Days
         </Card>
         <Card elevation={1}>
           <h1>{hours}</h1>
-          <br />
           Hours
         </Card>
         <Card elevation={1}>
           <h1>{minutes}</h1>
-          <br />
           Mins
         </Card>
         <Card elevation={1}>
           <h1>{seconds}</h1>
-          <br />
           Secs
         </Card>
       </div>
@@ -391,7 +389,7 @@ const Home = (props: HomeProps) => {
               />
             ) : !wallet ? (
               <>
-                <p style={{ color: "black", fontWeight: "bold" }}>
+                <p style={{ fontWeight: "bold" }}>
                   {" "}
                   Please Connect Wallet to Mint
                 </p>

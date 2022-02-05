@@ -1,11 +1,16 @@
+.faq {
+  background-color: #28282f;
+}
+
 .faq h1 {
-  font-family: "God", Courier, monospace;
+  font-family: "Poppins", sans-serif;
   color: red;
   font-size: 2.5rem !important;
+  font-weight: bold;
 }
 
 .faq .panel {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(250, 247, 247);
   padding: 5px;
 }
 
@@ -18,7 +23,7 @@
 .faq .panel-default .panel-title a {
   display: block;
   font-size: 1.5rem;
-  color: white !important;
+  color: #e22237 !important;
   text-decoration: none;
 }
 
@@ -27,7 +32,7 @@
   font-style: normal;
   font-size: 2rem;
   content: "\f106";
-  color: #0d0d0e;
+  color: white;
   float: right;
   margin-top: -12px;
 }
