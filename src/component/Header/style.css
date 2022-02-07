@@ -33,11 +33,12 @@ nav h3 {
   border-bottom: 2px solid red;
 }
 
+.navbar {
+  background-color: #571119;
+  background-image: linear-gradient(315deg, #571119 0%, #160709 74%);
+}
+
 @media only screen and (max-width: 1000px) {
-  .navbar {
-    background-color: #3f0d12;
-    background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
-  }
   .masthead .desc {
     padding: 10px;
     border-radius: 10px;
