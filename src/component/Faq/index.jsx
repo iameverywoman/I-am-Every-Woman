@@ -8,7 +8,7 @@ export default function Faq() {
         <div className="row py-5">
           <div className="col-md-10 col-12 ml-auto mr-auto">
             <h1 className="fw-light t-shadow text-center mb-5">
-              <span className="text-light">Frequently Asked</span> Questionss
+              <span className="text-light">Frequently Asked</span> Questions
             </h1>
             <div
               className="panel-group"
@@ -151,7 +151,7 @@ export default function Faq() {
                   aria-labelledby="heading3"
                 >
                   <div className="panel-body px-3 mb-4">
-                    <p className="text-light">19 february</p>
+                    <p className="text-light">18 February</p>
                   </div>
                 </div>
               </div>
