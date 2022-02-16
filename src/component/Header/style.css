@@ -1,41 +1,36 @@
 .masthead {
-  height: 100vh;
   min-height: 500px;
-  background-image: url(../../assets/images/banner.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-image: url("../../assets/images/background.jpg");
+}
+
+.masthead .desc {
+  font-size: 2rem;
+  color: black;
+  text-shadow: 1px 1px white;
 }
 
 .masthead h1 {
-  font-family: "Spartan", sans-serif;
-  color: red;
+  color: #ec8222;
 }
 
-nav h3 {
-  font-family: "God", Courier, monospace;
-  padding-top: 10px;
-  color: red;
-  text-shadow: 2px 2px #8d2424;
+.masthead .gif {
+  border-radius: 10px;
 }
 
 .nav-link {
-  font-family: "Poppins", sans-serif;
   color: white !important;
   text-shadow: 0.5px 0.5px #0c0c0c;
-  font-size: 1.5rem !important;
+  font-size: 2rem !important;
   font-weight: bold;
 }
 
 .navbar-nav a:hover {
   text-shadow: 2px 2px #110808;
-  color: red !important;
-  border-bottom: 2px solid red;
-}
-
-.navbar {
-  background-color: #571119;
-  background-image: linear-gradient(315deg, #571119 0%, #160709 74%);
+  color: #ec8222 !important;
+  border-bottom: 2px solid #ec8222;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -43,5 +38,19 @@ nav h3 {
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .left {
+    margin-top: 7rem;
+  }
+
+  .masthead .gif {
+    margin: 0 auto !important;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .masthead {
+    height: 100vh;
   }
 }

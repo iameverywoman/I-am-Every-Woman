@@ -1,44 +1,56 @@
 .roadmap {
-  background-color: #040405;
   position: relative;
+  background-image: url("../../assets/images/grass.png");
+  background-size: cover;
 }
 
 .roadmap h1 {
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
-  color: red;
+  color: #ec8222;
   font-size: 2.5rem !important;
 }
 
-.roadmap img {
-  display: block;
-  margin: 0 auto;
+.roadmap .card-title {
+  color: #040405 !important;
 }
 
-.custom-shape-divider-bottom-1644075407 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
+.roadmap .card-text {
+  color: #040405 !important;
 }
 
-.custom-shape-divider-bottom-1644075407 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 150px;
+.roadmap p {
+  color: #040405 !important;
 }
 
-.custom-shape-divider-bottom-1644075407 .shape-fill {
-  fill: #18181a;
+.roadmap h4 {
+  color: #040405 !important;
+}
+
+.roadmap .card {
+  background-color: #6da35b;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.roadmap .card-title {
+  font-weight: bold;
+  color: #ec8222 !important;
+  text-shadow: 1.5px 1.5px #0a0a0a;
+}
+
+.roadmap .badge {
+  background-color: #6da35b !important;
 }
 
 @media only screen and (max-width: 1000px) {
   .roadmap h1 {
     font-size: 1.7rem !important;
     text-shadow: 1px 1px #8d2424;
+  }
+}
+
+@media only screen and (min-width: 1115px) {
+  .roadmap {
+    scroll-margin-top: 6rem;
   }
 }

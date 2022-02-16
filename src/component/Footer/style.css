@@ -1,77 +1,37 @@
-footer {
-  background-color: #18181a;
+.footer-basic {
+  padding: 40px 0;
+  color: #f5efef;
+  background-size: cover;
+  background-position: center;
+  background: url("../../assets/images/rumput.png");
 }
-.discord-icon {
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
   width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
 }
 
-.twitter-icon {
-  width: 40px;
+.footer-basic .social > a:hover {
+  opacity: 0.9;
 }
 
-i {
-  font-size: 30px;
-}
-
-a button span {
-  color: black !important;
-}
-
-/* footer {
-  background-color: #373c3e;
-} */
-
-footer img {
-  width: 30px;
-}
-
-.follow {
-  background-color: #e7eff9;
-  background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
-  box-shadow: 5px 5px #888888;
-  margin: 20px 0px;
-}
-
-.btn-twitter {
-  background-color: #079ee8;
-  border: 2px solid black;
-  box-shadow: 5px 5px #888888;
-  width: 100%;
-  padding: 10px;
-  font-weight: bolder !important;
-}
-
-.btn-discord {
-  background-color: #5865f2;
-  border: 2px solid black;
-  box-shadow: 5px 5px #888888;
-  width: 100%;
-  padding: 10px;
-  font-weight: bolder !important;
-}
-
-.btn-fb {
-  background-color: #1977f2;
-  border: 2px solid black;
-  box-shadow: 5px 5px #888888;
-  width: 100%;
-  padding: 10px;
-  font-weight: bolder !important;
-}
-
-footer h1 {
-  font-family: "God", Courier, monospace;
-  color: red;
-  font-size: 2.5rem !important;
-}
-
-.foot-desc {
-  font-size: 0.9rem;
-}
-
-@media only screen and (max-width: 1000px) {
-  footer h1 {
-    font-size: 1.7rem !important;
-    text-shadow: 1px 1px #8d2424;
-  }
+.footer-basic .copyright {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 0;
 }

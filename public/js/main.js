@@ -1,18 +1,16 @@
-var faq = document.getElementsByClassName("faq-page");
-var i;
-for (i = 0; i < faq.length; i++) {
-  faq[i].addEventListener("click", function () {
-    /* Toggle between adding and removing the "active" class,
-        to highlight the button that controls the panel */
-    this.classList.toggle("active");
-    /* Toggle between hiding and showing the active panel */
-    var body = this.nextElementSibling;
-    if (body.style.display === "block") {
-      body.style.display = "none";
+/* eslint-disable no-undef */
+$(document).ready(function () {
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+    if (scroll > 300) {
+      $(".navbar").css("background", "black");
+      $(".navbar").css(
+        "box-shadow",
+        "rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
+      );
     } else {
-      body.style.display = "block";
+      $(".navbar").css("background", "none");
+      $(".navbar").css("box-shadow", "none");
     }
   });
-}
-
-console.log("asd");
+});

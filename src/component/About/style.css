@@ -1,23 +1,28 @@
 .about {
-  background-color: #040405;
+  background-image: url("../../assets/images/grass.png");
+  background-size: cover;
 }
 
 .about h1 {
   font-size: 2.5rem !important;
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
-  color: white;
+  color: #ec8222;
 }
 
-.logo-trading {
-  width: 100px;
-  display: block;
-  margin: 0 auto;
+.about p {
+  font-size: 1.5rem;
+  color: black;
 }
 
 @media only screen and (max-width: 1000px) {
   .about h1 {
     font-size: 1.7rem !important;
     text-shadow: 1px 1px #8d2424;
+  }
+}
+
+@media only screen and (min-width: 1115px) {
+  .about {
+    scroll-margin-top: 5rem;
   }
 }

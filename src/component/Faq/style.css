@@ -1,12 +1,12 @@
-.faq {
-  background-color: #18181a;
-}
-
 .faq h1 {
-  font-family: "Poppins", sans-serif;
-  color: red;
+  color: #ec8222;
   font-size: 2.5rem !important;
   font-weight: bold;
+}
+
+.faq {
+  background-image: url("../../assets/images/grass.png");
+  background-size: cover;
 }
 
 .faq .panel {
@@ -22,9 +22,10 @@
 
 .faq .panel-default .panel-title a {
   display: block;
-  font-size: 1.5rem;
-  color: #e22237 !important;
+  font-size: 2rem;
+  color: #ec8222 !important;
   text-decoration: none;
+  text-shadow: 1px 1px #0c0c0c;
 }
 
 .faq .panel-default .panel-title a:after {
@@ -43,12 +44,21 @@
 
 .faq .panel-default .panel-body {
   font-size: 1.2rem;
-  font-family: "ABeeZee", sans-serif;
 }
 
 @media only screen and (max-width: 1000px) {
   .faq h1 {
     font-size: 1.7rem !important;
     text-shadow: 1px 1px #8d2424;
+  }
+
+  .faq .panel-default .panel-title a {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1115px) {
+  .faq {
+    scroll-margin-top: 6rem;
   }
 }

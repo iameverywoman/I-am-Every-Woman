@@ -1,14 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import App from "../../App";
+// import App from "../../App";
 import "./style.css";
+import Logo from "../../assets/images/logo.png";
+import Gif from "../../assets/images/gif.gif";
 
 export default function Header() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-light fixed-top ">
         <div className="container">
-          <h3>War Of Kaos</h3>
+          <img src={Logo} alt="logo" className="img-fluid" width="100px" />
           <button
             className="navbar-toggler"
             type="button"
@@ -18,7 +20,9 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="">
+              <i className="fa-solid fa-bars" style={{ color: "red" }}></i>
+            </span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ml-auto">
@@ -40,12 +44,12 @@ export default function Header() {
               <a className="nav-link font-weight-bolder text-light" href="#faq">
                 Faq
               </a>
-              <a
+              {/* <a
                 className="nav-link font-weight-bolder text-light"
                 href="#team"
               >
                 Team
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -54,32 +58,24 @@ export default function Header() {
       <header className="masthead">
         <div className="container h-100">
           <div className="row h-100 align-items-center">
-            <div className="col-md-6 col-12">
-              <h1 className="fw-light t-shadow">Welcome to</h1>
-              <h1 className="fw-light t-shadow">War Of Kaos</h1>
+            <div className="col-md-6 left">
+              <h1 className="fw-light t-shadow">Jaguar Club</h1>
               <p className="lead text-justify desc">
-                First NFT collection focused on the decentralization of E-SPORTS
-                under the SOLANA network We plan to build our own PROFESSIONAL
-                TEAM and compete in games like League of Legends, Warzone,
-                Valory, Free Fire.
+                The Jaguar Club is a NFT collection made up of 1,111 uniquely
+                generated Jaguars on the Solana Blockchain
               </p>
-              <App />
+              {/* <App /> */}
+            </div>
+            <div className="col-md-6">
+              <img
+                src={Gif}
+                alt="gif"
+                className="img-fluid gif rounded-circle ml-auto d-block"
+              />
             </div>
           </div>
         </div>
       </header>
-
-      {/* <section className="py-5">
-        <div className="container">
-          <h2 className="fw-light">Page Content</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Repellendus ab nulla dolorum autem nisi officiis blanditiis
-            voluptatem hic, assumenda aspernatur facere ipsam nemo ratione
-            cumque magnam enim fugiat reprehenderit expedita.
-          </p>
-        </div>
-      </section> */}
     </>
   );
 }

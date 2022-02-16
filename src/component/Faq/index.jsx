@@ -33,7 +33,7 @@ export default function Faq() {
                       aria-expanded="true"
                       aria-controls="collapse0"
                     >
-                      About us KAOS TRADING CLUB ?
+                      What is the Jaguar Club?
                     </a>
                   </h3>
                 </div>
@@ -45,9 +45,8 @@ export default function Faq() {
                 >
                   <div className="panel-body px-3 mb-4">
                     <p className="text-light">
-                      We are a club with 4 years of experience made up of
-                      members from all over the world We trade (Futures,
-                      Cryptocurrencies, Forex).
+                      The Jaguar Club is a 1,111 collection looking to take over
+                      the Solana Metaverse!
                     </p>
                   </div>
                 </div>
@@ -70,7 +69,7 @@ export default function Faq() {
                       aria-expanded="true"
                       aria-controls="collapse1"
                     >
-                      What are eSports ?
+                      What is the total Jaguar Club supply?
                     </a>
                   </h3>
                 </div>
@@ -82,9 +81,7 @@ export default function Faq() {
                 >
                   <div className="panel-body px-3 mb-4">
                     <p className="text-light">
-                      They are electronic sports that are competed
-                      professionally moving millions of dollars in sponsorships
-                      and others.
+                      The total supply of Jaguar Club is 1,111.
                     </p>
                   </div>
                 </div>
@@ -107,7 +104,7 @@ export default function Faq() {
                       aria-expanded="true"
                       aria-controls="collapse2"
                     >
-                      How many pieces of supply ?
+                      What is the minting cost?
                     </a>
                   </h3>
                 </div>
@@ -118,7 +115,9 @@ export default function Faq() {
                   aria-labelledby="heading2"
                 >
                   <div className="panel-body px-3 mb-4">
-                    <p className="text-light">Only 888 pieces.</p>
+                    <p className="text-light">
+                      Each Jaguar will cost 0.35 SOL to mint.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -140,7 +139,7 @@ export default function Faq() {
                       aria-expanded="true"
                       aria-controls="collapse3"
                     >
-                      When is the date of the MINT ?
+                      What Solana wallets can I use?
                     </a>
                   </h3>
                 </div>
@@ -151,7 +150,7 @@ export default function Faq() {
                   aria-labelledby="heading3"
                 >
                   <div className="panel-body px-3 mb-4">
-                    <p className="text-light">18 February</p>
+                    <p className="text-light"> Phantom, Sollet and Solflare.</p>
                   </div>
                 </div>
               </div>
@@ -173,7 +172,7 @@ export default function Faq() {
                       aria-expanded="true"
                       aria-controls="collapse4"
                     >
-                      What will be the cost of the MINT ?
+                      Where can I sell my Jaguar Club?
                     </a>
                   </h3>
                 </div>
@@ -184,8 +183,36 @@ export default function Faq() {
                   aria-labelledby="heading2"
                 >
                   <div className="panel-body px-3 mb-4">
-                    <p className="text-light">0.9 SOL</p>
+                    <p className="text-light">Magic Eden.</p>
                   </div>
+                </div>
+              </div>
+            </div>
+            <div className="panel panel-default" data-aos="fade-left">
+              <div className="panel-heading p-3 mb-3" role="tab" id="heading2">
+                <h3 className="panel-title">
+                  <a
+                    className="collapsed"
+                    role="button"
+                    title=""
+                    data-toggle="collapse"
+                    data-parent="#accordion"
+                    href="#collapse5"
+                    aria-expanded="true"
+                    aria-controls="collapse5"
+                  >
+                    What blockchain is the project hosted on?
+                  </a>
+                </h3>
+              </div>
+              <div
+                id="collapse5"
+                className="panel-collapse collapse"
+                role="tabpanel"
+                aria-labelledby="heading2"
+              >
+                <div className="panel-body px-3 mb-4">
+                  <p className="text-light">Solana Blockchain</p>
                 </div>
               </div>
             </div>
