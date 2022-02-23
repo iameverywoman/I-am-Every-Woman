@@ -1,9 +1,6 @@
 .footer-basic {
   padding: 40px 0;
   color: #f5efef;
-  background-size: cover;
-  background-position: center;
-  background: url("../../assets/images/rumput.png");
 }
 
 .footer-basic .social {

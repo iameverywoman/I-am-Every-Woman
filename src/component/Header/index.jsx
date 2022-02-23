@@ -10,7 +10,7 @@ export default function Header() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light fixed-top ">
         <div className="container">
-          <img src={Logo} alt="logo" className="img-fluid" width="100px" />
+          <img src={Logo} alt="logo" className="img-fluid" width="50px" />
           <button
             className="navbar-toggler"
             type="button"
@@ -44,12 +44,12 @@ export default function Header() {
               <a className="nav-link font-weight-bolder text-light" href="#faq">
                 Faq
               </a>
-              {/* <a
+              <a
                 className="nav-link font-weight-bolder text-light"
-                href="#team"
+                href="#rarity"
               >
-                Team
-              </a> */}
+                Rarity
+              </a>
             </div>
           </div>
         </div>
@@ -59,7 +59,9 @@ export default function Header() {
         <div className="container h-100">
           <div className="row h-100 align-items-center">
             <div className="col-md-6 left">
-              <h1 className="fw-light t-shadow">Jaguar Club</h1>
+              <h1 className="fw-light t-shadow text-uppercase">
+                Expansion ThugBirdz
+              </h1>
               <p className="lead text-justify desc">
                 The Jaguar Club is a NFT collection made up of 1,111 uniquely
                 generated Jaguars on the Solana Blockchain

@@ -14,7 +14,6 @@ export default function Footer() {
             <i className="fab fa-twitter"></i>
           </a>
         </div>
-
         <p className="copyright">Jaguar Club © 2022</p>
       </footer>
     </div>

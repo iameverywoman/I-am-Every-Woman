@@ -1,12 +1,180 @@
-.btn-rarity {
-  margin-right: 20px;
-  margin-bottom: 20px;
-  min-width: 100px;
-  padding: 10px;
+.rarity p {
+  font-family: "Roboto Mono", sans-serif;
+}
+
+.rarity img {
+  margin-bottom: 10px;
+}
+
+.attribut {
+  font-family: "Roboto Mono", sans-serif;
   font-size: 1.5rem;
-  box-shadow: 0 0 0 4px rgb(109 73 255 / 40%), 0 -8px 0 0 rgb(109 73 255 / 20%),
-    -8px 0 0 0 rgb(109 73 255 / 20%), 8px 0 0 0 rgb(109 73 255 / 40%),
-    0 8px 0 0 rgb(109 73 255 / 40%);
-  border: none;
-  background-color: #7f7cb4;
+  font-weight: bold;
+}
+
+.progbar {
+  height: 12px;
+  margin-bottom: 8px;
+  box-shadow: -1px -1px 0 0 #fff, 1px 1px 0 0 #fff;
+  margin-bottom: 10px;
+}
+
+._20 {
+  width: 20%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._24 {
+  width: 24%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._12 {
+  width: 12%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._18 {
+  width: 18%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._11 {
+  width: 11%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._10 {
+  width: 10%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._16 {
+  width: 16%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._15 {
+  width: 15%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+._14 {
+  width: 14%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+._8 {
+  width: 8%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._87 {
+  width: 87%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._9 {
+  width: 9%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._66 {
+  width: 66%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._68 {
+  width: 68%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._34 {
+  width: 34%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._35 {
+  width: 35%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._95 {
+  width: 95%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._4 {
+  width: 4%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._51 {
+  width: 51%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._50 {
+  width: 50%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._49 {
+  width: 49%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._1 {
+  width: 1%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._13 {
+  width: 13%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._76 {
+  width: 76%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._17 {
+  width: 17%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+._7 {
+  width: 7%;
+  height: 12px;
+  background-color: #80cf0d;
+}
+
+@media only screen and (min-width: 1115px) {
+  #rarity {
+    scroll-margin-top: 6rem;
+  }
 }

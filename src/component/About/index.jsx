@@ -13,15 +13,21 @@ export default function About() {
             data-aos-duration="1000"
             data-aos-once="true"
           >
-            <h1 className="t-shadow pb-3">What is The Jaguar Club</h1>
-            <p className="text-justify">
-              The Jaguar Club is a collection of 1,111 Jaguars that live in the
-              Jaguar Club City. Each Jaguar is unique and combines itself with
-              different traits. It is a community-driven NFT project that offers
-              great benefits to all holders. The team is excited to put all
-              their creativity and focus into building a great community for all
-              Jaguars. Not only is it a nice PFP, but also a project offering
-              incredible experiences to our DAO.
+            <h1 className="t-shadow pb-3">About</h1>
+            <p className="">
+              Expansion ThugBirdz is on a mission to pay homage to their O.G.
+              feathered homies, the ThugBirdz. The Expansion ThugBirdz
+              collection features a distinct “yellow” background. These birdz
+              are truly unique and each has a different set of traits, making
+              each one-of-a-kind. This flock of ThugBirdz are pecking their way
+              up the ranks in the underworld of the Metaverse, so be on the
+              lookout!
+            </p>
+            <h3 className="t-shadow"> Different Gang, Same Street Cred.</h3>
+            <p>
+              Expansion ThugBirdz is not affiliated with ThugBirdz, but we pay
+              homage to our homies. The Expansion ThugBirdz collection contains
+              no duplicates of the original ThugBirdz Assortment.
             </p>
           </div>
           <div

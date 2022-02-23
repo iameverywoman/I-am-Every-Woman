@@ -3,11 +3,11 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../../assets/images/background.jpg");
+  /* background-image: url("../../assets/images/background.jpg"); */
 }
 
 .masthead .desc {
-  font-size: 2rem;
+  font-size: 1rem;
   color: black;
   text-shadow: 1px 1px white;
 }
@@ -16,14 +16,14 @@
   color: #ec8222;
 }
 
-.masthead .gif {
-  border-radius: 10px;
+.navbar {
+  border-bottom: 1px solid white;
 }
 
 .nav-link {
   color: white !important;
   text-shadow: 0.5px 0.5px #0c0c0c;
-  font-size: 2rem !important;
+  font-size: 1rem !important;
   font-weight: bold;
 }
 
