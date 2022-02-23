@@ -332,7 +332,7 @@ export default function Rarity() {
         </div>
         <div className="row tatto">
           <div className="col-md-12">
-            <p className="attribut">Tatto</p>
+            <p className="attribut">Tattoo</p>
             <div className="row">
               <div className="col-md-3 col-6 my-2">
                 <img src={TattoNo} alt="rarity-img" className="img-fluid" />
