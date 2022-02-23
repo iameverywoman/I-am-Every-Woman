@@ -6,22 +6,16 @@ import { GatewayStatus, useGateway } from "@civic/solana-gateway-react";
 import { CandyMachine } from "./candy-machine";
 
 export const CTAButton = styled(Button)`
-  width: 150px;
-  background: #ed213a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #93291e,
-    #ed213a
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #93291e,
-    #ed213a
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  font-family: "VT323", monospace !important;
   justify-content: center !important;
-  font-size: 1.2em;
-  color: white !important;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+  color: black !important;
+
+  width: auto;
+  height: 61px;
+  width: 260px;
+  border-radius: 0px !important;
 `;
 
 export const MintButton = ({

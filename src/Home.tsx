@@ -327,21 +327,33 @@ const Home = (props: HomeProps) => {
     <main>
       <MainContainer>
         <MintContainer>
-          {wallet && isActive && whitelistEnabled && whitelistTokenBalance > 0 && (
+          {/* {wallet && isActive && whitelistEnabled && whitelistTokenBalance > 0 && (
             <>
               <p style={{ color: "black", fontWeight: "bold" }}>
                 You have {whitelistTokenBalance} whitelist mint(s) remaining.
               </p>
             </>
-          )}
+          )} */}
           {wallet && isActive && (
             /* <p>Total Minted : {100 - (itemsRemaining * 100 / itemsAvailable)}%</p>}*/
             <>
-              <p style={{ color: "black", fontWeight: "bold" }}>
+              <p
+                style={{
+                  color: "black",
+                  fontWeight: "bold",
+                  fontSize: "1.5rem",
+                }}
+              >
                 TOTAL MINTED: {itemsRedeemed} / {itemsAvailable}
               </p>
-              <p style={{ color: "black", fontWeight: "bold" }}>
-                Price: 0.9 SOL
+              <p
+                style={{
+                  color: "black",
+                  fontWeight: "bold",
+                  fontSize: "1.5rem",
+                }}
+              >
+                Price: 1 SOL
               </p>
             </>
           )}

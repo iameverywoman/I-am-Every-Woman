@@ -6,14 +6,19 @@
   /* background-image: url("../../assets/images/background.jpg"); */
 }
 
+.masthead p {
+  font-family: "Roboto Mono", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
 .masthead .desc {
   font-size: 1rem;
-  color: black;
-  text-shadow: 1px 1px white;
 }
 
 .masthead h1 {
   color: #ec8222;
+  font-size: 1.5rem;
 }
 
 .navbar {

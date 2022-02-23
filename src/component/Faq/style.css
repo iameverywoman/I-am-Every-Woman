@@ -8,7 +8,7 @@
   color: #302e80;
 }
 
-.faq li a {
+.faq li {
   color: #f87315;
 }
 
@@ -20,6 +20,6 @@
 
 @media only screen and (min-width: 1115px) {
   .faq {
-    scroll-margin-top: 6rem;
+    scroll-margin-top: 3rem;
   }
 }

@@ -4,6 +4,7 @@ import React from "react";
 import "./style.css";
 import Logo from "../../assets/images/logo.png";
 import Gif from "../../assets/images/gif.gif";
+import App from "../../App";
 
 export default function Header() {
   return (
@@ -63,10 +64,10 @@ export default function Header() {
                 Expansion ThugBirdz
               </h1>
               <p className="lead text-justify desc">
-                The Jaguar Club is a NFT collection made up of 1,111 uniquely
-                generated Jaguars on the Solana Blockchain
+                The XThugBirdz is a NFT collection made up of 3,333 uniquely
+                generated Expansion ThugBirdz on the Solana Blockchain
               </p>
-              {/* <App /> */}
+              <App />
             </div>
             <div className="col-md-6">
               <img

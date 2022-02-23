@@ -49,7 +49,7 @@ export default function Faq() {
               </li>
             </ol>
           </div>
-          <div className="col-md-12 card-faq mt-3 py-5">
+          <div className="col-md-12 card-faq mt-3 p-5">
             <h4>The Launch</h4>
             <p>
               There will be no whitelist. There will be no presale. There will
