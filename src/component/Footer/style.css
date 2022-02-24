@@ -26,6 +26,13 @@
   opacity: 0.9;
 }
 
+.rarity-sniper {
+  width: 200px !important;
+  margin-bottom: 50px !important;
+  display: block;
+  margin: 0 auto;
+}
+
 .footer-basic .copyright {
   margin-top: 15px;
   text-align: center;
