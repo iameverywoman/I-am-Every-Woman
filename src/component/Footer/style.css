@@ -15,8 +15,8 @@
   line-height: 40px;
   display: inline-block;
   text-align: center;
-  border-radius: 50%;
-  border: 1px solid #ccc;
+  /* border-radius: 50%; */
+  /* border: 1px solid #ccc; */
   margin: 0 8px;
   color: inherit;
   opacity: 0.75;
@@ -27,8 +27,9 @@
 }
 
 .footer-basic .copyright {
+  margin-top: 15px;
   text-align: center;
   font-size: 20px;
-  color: black;
+  color: #aaa;
   margin-bottom: 0;
 }

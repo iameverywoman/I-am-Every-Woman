@@ -4,7 +4,7 @@ import About from "../About";
 import Rarity from "../Rarity";
 import Roadmap from "../Roadmap";
 import Faq from "../Faq";
-// import Footer from "../Footer";
+import Footer from "../Footer";
 
 export default function Page() {
   return (
@@ -14,7 +14,7 @@ export default function Page() {
       <Rarity />
       <Roadmap />
       <Faq />
-      {/* <Footer /> */}
+      <Footer />
       <div className="bg"></div>
     </>
   );

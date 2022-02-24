@@ -64,8 +64,8 @@ export default function Header() {
                 Expansion ThugBirdz
               </h1>
               <p className="lead text-justify desc">
-                The XThugBirdz is a NFT collection made up of 3,333 uniquely
-                generated Expansion ThugBirdz on the Solana Blockchain
+                Expansion ThugBirdz are a collection of 3,333 uniquely generated
+                NFTs on the #Solana blockchain
               </p>
               <App />
             </div>
