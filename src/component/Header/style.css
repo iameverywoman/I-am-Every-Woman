@@ -7,7 +7,7 @@
 }
 
 .masthead p {
-  font-family: "Roboto Mono", sans-serif;
+  font-family: "Balsamiq Sans", cursive;
   color: white;
   font-weight: bold;
 }
@@ -17,8 +17,7 @@
 }
 
 .masthead h1 {
-  color: #ec8222;
-  font-size: 1.5rem;
+  font-size: 4rem;
 }
 
 .navbar {
@@ -57,5 +56,11 @@
 @media only screen and (min-width: 1000px) {
   .masthead {
     height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .masthead h1 {
+    font-size: 2.5rem;
   }
 }

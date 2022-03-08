@@ -1,8 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-// import App from "../../App";
 import "./style.css";
-import Logo from "../../assets/images/logo.png";
+// import Logo from "../../assets/images/logo.png";
 import Gif from "../../assets/images/gif.gif";
 import App from "../../App";
 
@@ -11,7 +10,8 @@ export default function Header() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light fixed-top ">
         <div className="container">
-          <img src={Logo} alt="logo" className="img-fluid" width="50px" />
+          {/* <img src={Logo} alt="logo" className="img-fluid" width="50px" /> */}
+          <h1>Cute Otters Club</h1>
           <button
             className="navbar-toggler"
             type="button"
@@ -47,9 +47,9 @@ export default function Header() {
               </a>
               <a
                 className="nav-link font-weight-bolder text-light"
-                href="#rarity"
+                href="#team"
               >
-                Rarity
+                Team
               </a>
             </div>
           </div>
@@ -60,12 +60,13 @@ export default function Header() {
         <div className="container h-100">
           <div className="row h-100 align-items-center">
             <div className="col-md-6 left">
-              <h1 className="fw-light t-shadow text-uppercase">
-                Expansion ThugBirdz
+              <h1 className="fw-light t-shadow">
+                Welcome to the Cute Otters Club !
               </h1>
               <p className="lead text-justify desc">
-                Expansion ThugBirdz are a collection of 3,333 uniquely generated
-                NFTs on the #Solana blockchain
+                Be one of the 6,500 Yetais on the Solana Blockchain and access
+                the Tribe’s very own Trading Lieutenant and NFT Analyser among
+                other utilities.
               </p>
               <App />
             </div>

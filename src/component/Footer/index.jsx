@@ -1,29 +1,21 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./style.css";
-import Sniper from "../../assets/images/rarity sniper.png";
 
 export default function Footer() {
   return (
     <div class="footer-basic">
       <footer>
-        <a href="https://raritysniper.com">
-          <img
-            src={Sniper}
-            alt="rarity sniper"
-            className="img-fluid rarity-sniper"
-          />
-        </a>
         <div class="social">
           <a
-            href="https://discord.gg/k6h6qmM6gU"
+            href="https://discord.com/invite/PHNnh5ZP"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i class="fab fa-discord"></i>
           </a>
           <a
-            href="https://twitter.com/xthugbirdz"
+            href="https://twitter.com/NFTOttersClub"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -31,7 +23,7 @@ export default function Footer() {
           </a>
         </div>
 
-        <p class="copyright">XThugBirdz © 2022</p>
+        <p class="copyright">Cute Otters Club Story © 2022</p>
       </footer>
     </div>
   );

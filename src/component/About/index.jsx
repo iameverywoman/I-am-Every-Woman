@@ -5,7 +5,10 @@ import ImgAbout from "../../assets/images/about.png";
 export default function About() {
   return (
     <section className="about" id="about">
-      <div className="container h-100">
+      <div
+        className="container h-100"
+        style={{ borderBottom: "1px solid white" }}
+      >
         <div className="row py-5 h-100 align-items-center">
           <div
             className="col-md-6"
@@ -13,20 +16,16 @@ export default function About() {
             data-aos-duration="1000"
             data-aos-once="true"
           >
-            <h1 className="t-shadow pb-3">About</h1>
+            <h1 className="t-shadow pb-3">Cute Otters Club Story</h1>
             <p className="">
-              Expansion ThugBirdz is an expansion pack of birdz who are thugs.
-              The collection features a distinct “yellow” background. These
-              birdz are truly unique and each has a different set of traits,
-              making each one-of-a-kind. This flock of ThugBirdz are pecking
-              their way up the ranks in the underworld of the Metaverse, so be
-              on the lookout!
-            </p>
-            <h3 className="t-shadow"> Different Gang, Same Street Cred.</h3>
-            <p>
-              Expansion ThugBirdz is not affiliated with ThugBirdz, but we pay
-              homage to our homies. The Expansion ThugBirdz collection contains
-              no duplicates of the original ThugBirdz Assortment.
+              Yetis have been living in the coldest and most threatening region
+              of the Metaverse for ages: the Ketra tundra. <br />
+              The Elders charged the entire tribe to embark on a quest to find a
+              mysterious force that will save the village from chaos. <br />
+              One day, a gentle citizen stumbled upon the Visai, an Artificial
+              Intelligence rune. <br />
+              Yetis became YetAis, a tribe reborn and ready to shake the
+              Metaverse. <br />
             </p>
           </div>
           <div

@@ -4,8 +4,11 @@ import "./style.css";
 export default function Faq() {
   return (
     <section id="faq" className="faq">
-      <div className="container py-5">
-        <h1>Frequently Asked Questions</h1>
+      <div
+        className="container py-5"
+        style={{ borderBottom: "1px solid white" }}
+      >
+        <h1 className="t-shadow ">Frequently Asked Questions</h1>
         <div className="row mt-5">
           <div className="col-md-12  mt-3">
             <div className="card-faq p-3">

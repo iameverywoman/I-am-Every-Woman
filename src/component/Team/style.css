@@ -1,0 +1,17 @@
+.team .card {
+  background: #5db6c1 !important;
+  transition: 300ms;
+}
+
+.team .card img {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.team p {
+  font-family: "Roboto Mono", monospace;
+}
+
+.team .card:hover {
+  transform: scale(1.1);
+}

@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -7,15 +7,14 @@ html {
 
 body {
   margin: 0;
-  font-family: "Press Start 2P", cursive;
+  font-family: "Balsamiq Sans", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #ffffff;
 }
 
 h1 {
-  font-size: 2rem;
-  font-weight: bold;
+  color: #ec8222;
 }
 
 h3 {
@@ -35,14 +34,26 @@ h3 {
   z-index: -12;
   background-image: radial-gradient(
       circle farthest-corner at 50% 0%,
-      rgba(223, 20, 236, 0.5),
-      #6016b6 57%,
-      #25074b
+      rgba(98, 125, 245, 0.5),
+      #2116b6 57%,
+      #3708e0
     ),
     url("./assets/images/bg.jpg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
+
+/* .bg {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: -12;
+  background-image: url("./assets/images/bg.jpg");
+  background-position: 0px 0px, 2% 2%;
+  background-size: cover;
+} */
 
 @media only screen and (max-width: 1300px) {
   h1 {
