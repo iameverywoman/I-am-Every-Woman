@@ -8,7 +8,7 @@ export default function Footer() {
       <footer>
         <div class="social">
           <a
-            href="https://discord.com/invite/PHNnh5ZP"
+            href="https://discord.com/invite/ABDmmEtUKX"
             target="_blank"
             rel="noopener noreferrer"
           >

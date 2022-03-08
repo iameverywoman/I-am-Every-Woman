@@ -5,6 +5,7 @@ import Roadmap from "../Roadmap";
 import Faq from "../Faq";
 import Footer from "../Footer";
 import Team from "../Team";
+import Join from "../Join";
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
       <Header />
       <About />
       <Roadmap />
+      <Join />
       <Faq />
       <Team />
       <Footer />

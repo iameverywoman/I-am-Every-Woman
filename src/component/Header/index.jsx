@@ -64,9 +64,8 @@ export default function Header() {
                 Welcome to the Cute Otters Club !
               </h1>
               <p className="lead text-justify desc">
-                Be one of the 6,500 Yetais on the Solana Blockchain and access
-                the Tribe’s very own Trading Lieutenant and NFT Analyser among
-                other utilities.
+                Get one of the 5555 Cute Otters on the Solana Blockchain and
+                join the Club.
               </p>
               <App />
             </div>

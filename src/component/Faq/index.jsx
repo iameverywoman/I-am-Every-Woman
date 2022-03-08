@@ -11,7 +11,8 @@ export default function Faq() {
         <h1 className="t-shadow ">Frequently Asked Questions</h1>
         <div className="row mt-5">
           <div className="col-md-12  mt-3">
-            <div className="card-faq p-3">
+            <h4 className="text-light">Still in progress. Update ASAP</h4>
+            {/* <div className="card-faq p-3">
               <h4>Birdz of a Refined Feather.</h4>
               <p>
                 We deconstructed many layers from the ThugBirdz collection and
@@ -24,9 +25,9 @@ export default function Faq() {
                 stunning shade of yellow. This background color offers an
                 obvious distinction from those in the ThugBirdz collection.
               </p>
-            </div>
+            </div> */}
           </div>
-          <div className="col-md-12 mt-3">
+          {/* <div className="col-md-12 mt-3">
             <div className="card-faq p-3">
               {" "}
               <h4>Generational Birdz?</h4>
@@ -73,7 +74,7 @@ export default function Faq() {
                 latest updates!
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

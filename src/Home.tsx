@@ -40,13 +40,14 @@ const MintButtonContainer = styled.div``;
 const ConnectButton = styled(WalletMultiButton)`
   font-family: "VT323", monospace !important;
   justify-content: center !important;
-  font-size: 1.5rem !important;
+  // font-size: 1.5rem !important;
+  font-size: 1rem !important;
   font-weight: bold;
   color: black !important;
-
   width: auto;
   height: 61px;
   width: 260px;
+  pointer-events: none;
   border-radius: 0px !important;
 `;
 
@@ -374,7 +375,7 @@ const Home = (props: HomeProps) => {
                   {" "}
                   Please Connect Wallet to Mint
                 </p>
-                <ConnectButton>Connect Wallet</ConnectButton>
+                <ConnectButton>Mint starting on 30.03.2001</ConnectButton>
               </>
             ) : candyMachine?.state.gatekeeper &&
               wallet.publicKey &&
