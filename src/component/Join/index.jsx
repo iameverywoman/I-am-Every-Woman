@@ -13,16 +13,24 @@ export default function Join() {
 
         <ol>
           <li class="">
-            <span>Grilled Flatfish With Pistachio-Herb Sauce</span>
+            <span>
+              Reward system - from 0.2 SOL to 2.0 SOL back on your purchase for
+              every NFT you buy
+            </span>
           </li>
           <li class="">
-            <span>Coconut Cod Chowder With Seasoned Oyster Crackers</span>
+            <span>
+              Trading Lieutentant – crypto trading assitant for passive income
+              with crypto
+            </span>
           </li>
           <li class="">
-            <span>Tamarind-Glazed Black Bass With Coconut-Herb Salad</span>
+            <span>
+              NFT Analyser – to evaluate NFT project and make a big profit
+            </span>
           </li>
           <li class="">
-            <span>Spicy Sweet-and-Sour Salmon With Dates</span>
+            <span>Join Metaverse – enter the Metaverse with the Club.</span>
           </li>
         </ol>
 
