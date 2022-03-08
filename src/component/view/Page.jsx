@@ -6,6 +6,7 @@ import Faq from "../Faq";
 import Footer from "../Footer";
 import Team from "../Team";
 import Join from "../Join";
+import Rarity from "../Rarity";
 
 export default function Page() {
   return (
@@ -14,6 +15,7 @@ export default function Page() {
       <About />
       <Join />
       <Roadmap />
+      <Rarity />
       <Faq />
       <Team />
       <Footer />
