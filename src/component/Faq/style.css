@@ -1,11 +1,11 @@
 .faq p {
   font-family: "Balsamiq Sans", cursive;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
 .faq h4 {
-  color: #302e80;
+  color: #dd7936;
 }
 
 .faq li {
@@ -13,8 +13,7 @@
 }
 
 .card-faq {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgba(255, 237, 213, var(--tw-bg-opacity)) !important;
+  background: rgba(39, 94, 212, 0.3);
   border-radius: 10px;
 }
 

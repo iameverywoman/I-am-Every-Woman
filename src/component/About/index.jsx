@@ -5,10 +5,7 @@ import ImgAbout from "../../assets/images/about.png";
 export default function About() {
   return (
     <section className="about" id="about">
-      <div
-        className="container h-100"
-        style={{ borderBottom: "1px solid white" }}
-      >
+      <div className="container h-100">
         <div className="row py-5 h-100 align-items-center">
           <div
             className="col-md-6"

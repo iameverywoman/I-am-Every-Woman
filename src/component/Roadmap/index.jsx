@@ -6,7 +6,10 @@ import Roadmap2 from "../../assets/images/4.png";
 export default function Roadmap() {
   return (
     <section id="roadmap" className="roadmap">
-      <div className="container py-5">
+      <div
+        className="container py-5"
+        style={{ borderBottom: "1px solid white" }}
+      >
         <div className="row">
           <div class="col-md-6">
             <h1 className="t-shadow ">Roadmap</h1>

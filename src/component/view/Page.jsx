@@ -12,8 +12,8 @@ export default function Page() {
     <>
       <Header />
       <About />
-      <Roadmap />
       <Join />
+      <Roadmap />
       <Faq />
       <Team />
       <Footer />
