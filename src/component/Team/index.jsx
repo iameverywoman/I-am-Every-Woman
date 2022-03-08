@@ -1,7 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./style.css";
-// import Team1 from "../../assets/images/3.png";
+import Team1 from "../../assets/images/david.jpeg";
+import Team2 from "../../assets/images/azra.jpeg";
+import Team3 from "../../assets/images/ryan.png";
 
 export default function Team() {
   return (
@@ -11,54 +13,40 @@ export default function Team() {
         style={{ borderBottom: "1px solid white" }}
       >
         <h1 className="text-center t-shadow ">Team</h1>
-        <h4 className="text-light">Still in Progress. Update ASAP</h4>
         <div className="row mt-5 justify-content-center">
-          {/* <div className="col-md-3">
+          <div className="col-md-3">
             <div className="card mt-3" style={{ Width: "18rem" }}>
               <img src={Team1} className="card-img-top" alt="..." />
               <div className="card-body text-center">
-                <h3 className="card-title">Paul</h3>
+                <h3 className="card-title">David</h3>
                 <h5 className="card-title">
-                  <i class="fa-solid fa-certificate"></i> Marketing Genius
+                  <i class="fa-solid fa-certificate"></i> Marketing
                 </h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
               </div>
             </div>
           </div>
           <div className="col-md-3">
             <div className="card mt-3" style={{ Width: "18rem" }}>
-              <img src={Team1} className="card-img-top" alt="..." />
+              <img src={Team2} className="card-img-top" alt="..." />
               <div className="card-body text-center">
-                <h3 className="card-title">Joni</h3>
+                <h3 className="card-title">Azra</h3>
                 <h5 className="card-title">
-                  <i class="fa-solid fa-certificate"></i> Community Psycho.
+                  <i class="fa-solid fa-certificate"></i> Digital Artist
                 </h5>
-
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
               </div>
             </div>
           </div>
           <div className="col-md-3">
             <div className="card mt-3" style={{ Width: "18rem" }}>
-              <img src={Team1} className="card-img-top" alt="..." />
+              <img src={Team3} className="card-img-top" alt="..." />
               <div className="card-body text-center">
-                <h3 className="card-title">Steven</h3>
+                <h3 className="card-title">Ryan</h3>
                 <h5 className="card-title">
-                  <i class="fa-solid fa-certificate"></i> Blockchain Freak
+                  <i class="fa-solid fa-certificate"></i> Blockchain Developer
                 </h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
