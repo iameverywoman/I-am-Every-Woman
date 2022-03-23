@@ -1,24 +1,56 @@
-.faq p {
-  font-family: "Balsamiq Sans", cursive;
-  color: white;
-  font-weight: bold;
+.faq {
+  background-color: #27214e;
+  scroll-margin-top: 4rem;
 }
 
-.faq h4 {
-  color: #dd7936;
+.faq .panel {
+  border-bottom: 1px solid rgb(250, 247, 247);
+  padding: 5px;
 }
 
-.faq li {
-  color: #f87315;
-}
-
-.card-faq {
-  background: rgba(39, 94, 212, 0.3);
+.faq .panel-default > .panel-heading {
+  border: 0;
+  padding: 0;
   border-radius: 10px;
 }
 
-@media only screen and (min-width: 1115px) {
-  .faq {
-    scroll-margin-top: 3rem;
+.faq .panel-default .panel-title a {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white !important;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.faq .panel-default .panel-title a:after {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-size: 2rem;
+  content: "\f106";
+  color: white;
+  float: right;
+  margin-top: -12px;
+}
+
+.faq .panel-default .panel-title a.collapsed:after {
+  content: "\f107";
+}
+
+.faq .panel-default .panel-body {
+  font-size: 1.2rem;
+  /* font-family: "ABeeZee", sans-serif; */
+}
+
+.faq .title-font {
+  font: normal 3.75rem/1 Poppins, sans-serif;
+  margin-bottom: 1rem;
+  color: #f6037f;
+}
+
+@media only screen and (max-width: 1000px) {
+  .faq h1 {
+    font-size: 1.7rem !important;
+    text-shadow: 1px 1px #f7c154;
   }
 }

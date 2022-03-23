@@ -1,19 +1,10 @@
 .masthead {
-  min-height: 500px;
+  position: relative;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-image: url("../../assets/images/background.jpg"); */
-}
-
-.masthead p {
-  font-family: "Balsamiq Sans", cursive;
-  color: white;
-  font-weight: bold;
-}
-
-.masthead .desc {
-  font-size: 1rem;
+  background-image: url("../../assets/images/background.png");
 }
 
 .masthead h1 {
@@ -22,6 +13,7 @@
 
 .navbar {
   border-bottom: 1px solid white;
+  background-color: #322970;
 }
 
 .nav-link {
@@ -37,30 +29,72 @@
   border-bottom: 2px solid #ec8222;
 }
 
-@media only screen and (max-width: 1000px) {
-  .masthead .desc {
-    padding: 10px;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-
-  .left {
-    margin-top: 7rem;
-  }
-
-  .masthead .gif {
-    margin: 0 auto !important;
-  }
+.mint-btn {
+  display: none;
 }
 
+/* countdown */
+
+.launch-time {
+  display: flex;
+  margin: 0 auto;
+}
+
+.launch-time div {
+  padding: 5px;
+}
+
+.launch-time div p {
+  text-align: center;
+  margin: 0px !important;
+  font-size: 60px;
+  margin-bottom: -14px;
+}
+
+.countdown-card {
+  background-color: #ff007f;
+  min-width: 50px;
+  border-radius: 3px;
+}
+
+/* svg */
+.custom-shape-divider-bottom-1647825201 {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1647825201 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 53px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1647825201 .shape-fill {
+  fill: #27214e;
+}
+
+/* responsive */
+
 @media only screen and (min-width: 1000px) {
-  .masthead {
-    height: 100vh;
+  .countdown-card {
+    width: 100px;
   }
 }
 
 @media only screen and (max-width: 1200px) {
   .masthead h1 {
     font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .custom-shape-divider-bottom-1647825201 svg {
+    height: 20px;
   }
 }

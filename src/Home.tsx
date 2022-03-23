@@ -47,7 +47,6 @@ const ConnectButton = styled(WalletMultiButton)`
   width: auto;
   height: 61px;
   width: 260px;
-  pointer-events: none;
   border-radius: 0px !important;
 `;
 
@@ -340,21 +339,21 @@ const Home = (props: HomeProps) => {
             <>
               <p
                 style={{
-                  color: "black",
+                  textAlign: "center",
+                  color: "white",
                   fontWeight: "bold",
-                  fontSize: "1.5rem",
                 }}
               >
                 TOTAL MINTED: {itemsRedeemed} / {itemsAvailable}
               </p>
               <p
                 style={{
-                  color: "black",
+                  textAlign: "center",
+                  color: "white",
                   fontWeight: "bold",
-                  fontSize: "1.5rem",
                 }}
               >
-                Price: 1 SOL
+                Price: {price + " " + priceLabel}
               </p>
             </>
           )}
@@ -371,11 +370,11 @@ const Home = (props: HomeProps) => {
               />
             ) : !wallet ? (
               <>
-                <p style={{ fontWeight: "bold" }}>
+                <p style={{ fontWeight: "bold", textAlign: "center" }}>
                   {" "}
                   Please Connect Wallet to Mint
                 </p>
-                <ConnectButton>Mint starting on 30.03.2001</ConnectButton>
+                <ConnectButton>Connect Wallet</ConnectButton>
               </>
             ) : candyMachine?.state.gatekeeper &&
               wallet.publicKey &&

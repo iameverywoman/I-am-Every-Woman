@@ -1,6 +1,7 @@
 .footer-basic {
   padding: 40px 0;
   color: #f5efef;
+  position: relative;
 }
 
 .footer-basic .social {
@@ -39,4 +40,24 @@
   font-size: 20px;
   color: #aaa;
   margin-bottom: 0;
+}
+
+.custom-shape-divider-top-1647850883 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1647850883 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 25px;
+}
+
+.custom-shape-divider-top-1647850883 .shape-fill {
+  fill: #27214e;
 }

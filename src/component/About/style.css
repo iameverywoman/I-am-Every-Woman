@@ -1,10 +1,138 @@
-.about p {
-  text-align: justify;
-  font-family: "Balsamiq Sans", cursive;
+.about {
+  position: relative;
+  background-color: #27214e;
 }
 
-@media only screen and (min-width: 1115px) {
-  .about {
-    scroll-margin-top: 6rem;
+.about .content-8-3 .frame {
+  position: relative;
+}
+
+.about .content-8-3 .frame::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  transform: translate(-30px, 22px);
+  transition: transform 250ms ease;
+}
+
+.about .content-8-3 .frame:hover::before {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transform: translate(0px, 0px);
+}
+
+.about .content-8-3 .btn-read {
+  color: #ffffff;
+  font-weight: 700;
+  padding: 1.25rem 1.25rem 1.25rem 0rem;
+  transition: 0.2s;
+}
+
+.about .content-8-3 .btn-read:hover {
+  color: #d75a00;
+  transition: 0.2s;
+}
+
+.about .content-8-3 .btn-read:hover svg path {
+  fill: #d75a00;
+  transition: 0.2s;
+}
+
+.about .content-8-3 .text-gray-1 {
+  color: white;
+}
+
+.about .content-8-3 .main {
+  padding: 2.5rem 2rem 2rem;
+}
+
+.about .content-8-3 .left-column,
+.about .content-8-3 .right-column {
+  width: 100%;
+}
+
+.about .content-8-3 .right-column {
+  margin-top: 6rem;
+}
+
+.about .content-8-3 .caption-top {
+  font: normal 1.25rem/1.75rem Poppins, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.about .content-8-3 .title-font {
+  font: normal 3.75rem/1 Poppins, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.about .content-8-3 .caption-text {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+/* responsive */
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .about .content-8-3 .main {
+    padding: 2.5rem 4rem 2rem;
   }
+}
+
+@media (min-width: 992px) {
+  .about .content-8-3 .main {
+    padding: 6rem 6rem 8rem;
+  }
+
+  .about .content-8-3 .left-column,
+  .about .content-8-3 .right-column {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about .content-8-3 .main {
+    padding: 6rem 9rem 8rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about .content-8-3 .frame::before {
+    width: 100%;
+    height: 100%;
+    transform: translate(-10px, 10px);
+    transition: transform 250ms ease;
+  }
+}
+
+/* svg */
+
+.custom-shape-divider-bottom-1647827281 {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1647827281 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 53px;
+}
+
+.custom-shape-divider-bottom-1647827281 .shape-fill {
+  fill: #322970;
 }

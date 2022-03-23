@@ -1,0 +1,15 @@
+.vid {
+  scroll-margin-top: 4rem;
+  background-color: #322970;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1279) {
+  .vid {
+    height: 300px !important;
+  }
+}

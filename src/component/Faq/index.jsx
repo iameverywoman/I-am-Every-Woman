@@ -3,107 +3,185 @@ import "./style.css";
 
 export default function Faq() {
   return (
-    <section id="faq" className="faq">
-      <div
-        className="container py-5"
-        style={{ borderBottom: "1px solid white" }}
-      >
-        <h1 className="t-shadow ">Frequently Asked Questions</h1>
-        <div className="row mt-5">
-          <div className="col-md-12  mt-3">
-            <div className="card-faq p-3">
-              <h4>WHAT IS CUTE OTTERS CLUB?</h4>
-              <p>
-                It is NFT collection with 5555 Cute Otters on the Solana
-                Blockchain. Every NFT gives you rewards for owning (From 0.2 SOL
-                to 2.0 SOL back on every purchase). Our NFTs will be used in
-                Metaverse in end of the year 2022. There are also no gas fees.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-12 mt-3">
-            <div className="card-faq p-3">
-              {" "}
-              <h4>HOW CAN I BECOME A CUTE OTTER OWNER ?</h4>
-              <p>
-                Get one of the 5555 Cute Otters on the Solana Blockchain and
-                join the Club.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-12 mt-3">
-            <div className="card-faq p-3">
-              <h4>WHAT DOES "MINT" MEAN?</h4>
-              <p>
-                Minting a Cute Otter NFT means that you’re buying a numeric
-                piece of art that becomes part of the Solana Blockchain. Your
-                piece of art is represented as a NFT, it can therefore be
-                exchanged on the market and traced digitally.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-12 mt-3">
-            <div className="card-faq p-3">
-              <h4>WHICH BLOCKCHAIN IS CUTE OTTERS CLUB ON?</h4>
-              <p>The Solana blockchain. That means there is no gas fees!</p>
-            </div>
-          </div>
-          <div className="col-md-12 mt-3">
-            <div className="card-faq p-3">
-              <h4>WHAT DOES "MINT" MEAN?</h4>
-              <p>
-                Minting a Cute Otter NFT means that you’re buying a numeric
-                piece of art that becomes part of the Solana Blockchain. Your
-                piece of art is represented as a NFT, it can therefore be
-                exchanged on the market and traced digitally.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-12 mt-3">
-            <div className="card-faq p-3">
-              <h4>WHAT WILL BE THE PRICE OF THE MINT?</h4>
-              <p>Price will be 2.0 SOL</p>
-            </div>
-          </div>
-          <div className="col-md-12 mt-3">
-            <div className="card-faq p-3">
-              <h4>WHAT’S THE MINT DATE?</h4>
-              <p>Presale mint is on 30th March at 2PM EST.</p>
-            </div>
-          </div>
-          <div className="col-md-12 mt-3">
-            <div className="card-faq p-3">
-              <h4>
-                WHAT WILL BE THE PRICE OF THE MINT?WHY ARE CUTE OTTER NFTS 100%
-                SAFE?
-              </h4>
-              <p>
-                Our smart contract is open source, audited and secured by a
-                trusted team of professionals. To go beyond with security, every
-                member of our team is identity verified via civic.com
-              </p>
-            </div>
-          </div>
-          <div className="col-md-12 mt-3">
-            <div className="card-faq p-3">
-              <h4>HOW CAN I AVOID GETTING SCAMMED?</h4>
-              <p>
-                To limit risks, make sure to only follow our official Discord,
-                Twitter & Instagram. WE WILL NEVER DIRECTLY SEND YOU A PRIVATE
-                MESSAGE. For more info on security, check out the
-                scam-prevention channel on our Discord server.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-12 mt-3">
-            <div className="card-faq p-3">
-              <h4>WHAT’S THE METAVERSE?</h4>
-              <p>
-                Metaverse refers to a shared virtual experience where terrains,
-                avatars and names can be bought and sold, often using
-                cryptocurrency. Bored Cat will allow you to join the Metaverse
-                using your asset as an avatar.
-              </p>
+    <section className="faq" id="faq">
+      <div className="container">
+        <div className="row py-5">
+          <div className="col-md-10 col-12 ml-auto mr-auto">
+            <h1 className="fw-light t-shadow text-center mb-5 title-font">
+              <span className="text-light ">Frequently Asked</span> Questions
+            </h1>
+            <div
+              className="panel-group"
+              id="accordion"
+              role="tablist"
+              aria-multiselectable="true"
+            >
+              <div className="panel panel-default" data-aos="fade-left">
+                <div
+                  className="panel-heading p-3 mb-3"
+                  role="tab"
+                  id="heading0"
+                >
+                  <h3 className="panel-title">
+                    <a
+                      className="collapsed"
+                      role="button"
+                      title=""
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapse0"
+                      aria-expanded="true"
+                      aria-controls="collapse0"
+                    >
+                      What is the minting cost?
+                    </a>
+                  </h3>
+                </div>
+                <div
+                  id="collapse0"
+                  className="panel-collapse collapse"
+                  role="tabpanel"
+                  aria-labelledby="heading0"
+                >
+                  <div className="panel-body px-3 mb-4">
+                    <p className="text-light">0.88 SOL</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="panel panel-default" data-aos="fade-left">
+                <div
+                  className="panel-heading p-3 mb-3"
+                  role="tab"
+                  id="heading1"
+                >
+                  <h3 className="panel-title">
+                    <a
+                      className="collapsed"
+                      role="button"
+                      title=""
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapse1"
+                      aria-expanded="true"
+                      aria-controls="collapse1"
+                    >
+                      What is the supply?
+                    </a>
+                  </h3>
+                </div>
+                <div
+                  id="collapse1"
+                  className="panel-collapse collapse"
+                  role="tabpanel"
+                  aria-labelledby="heading1"
+                >
+                  <div className="panel-body px-3 mb-4">
+                    <p className="text-light">
+                      There will be a total of 1111 I am Every Woman
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="panel panel-default" data-aos="fade-left">
+                <div
+                  className="panel-heading p-3 mb-3"
+                  role="tab"
+                  id="heading2"
+                >
+                  <h3 className="panel-title">
+                    <a
+                      className="collapsed"
+                      role="button"
+                      title=""
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapse2"
+                      aria-expanded="true"
+                      aria-controls="collapse2"
+                    >
+                      What Solana wallet can I use?
+                    </a>
+                  </h3>
+                </div>
+                <div
+                  id="collapse2"
+                  className="panel-collapse collapse"
+                  role="tabpanel"
+                  aria-labelledby="heading2"
+                >
+                  <div className="panel-body px-3 mb-4">
+                    <p className="text-light">Phanton, Sollet and Solflare.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="panel panel-default" data-aos="fade-left">
+                <div
+                  className="panel-heading p-3 mb-3"
+                  role="tab"
+                  id="heading3"
+                >
+                  <h3 className="panel-title">
+                    <a
+                      className="collapsed"
+                      role="button"
+                      title=""
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapse3"
+                      aria-expanded="true"
+                      aria-controls="collapse3"
+                    >
+                      When is the mint?
+                    </a>
+                  </h3>
+                </div>
+                <div
+                  id="collapse3"
+                  className="panel-collapse collapse"
+                  role="tabpanel"
+                  aria-labelledby="heading3"
+                >
+                  <div className="panel-body px-3 mb-4">
+                    <p className="text-light">31 Mar 2022 20:00:00 UTC</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="panel panel-default" data-aos="fade-left">
+                <div
+                  className="panel-heading p-3 mb-3"
+                  role="tab"
+                  id="heading2"
+                >
+                  <h3 className="panel-title">
+                    <a
+                      className="collapsed"
+                      role="button"
+                      title=""
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapse4"
+                      aria-expanded="true"
+                      aria-controls="collapse4"
+                    >
+                      What blockchain is the project hosted on?
+                    </a>
+                  </h3>
+                </div>
+                <div
+                  id="collapse4"
+                  className="panel-collapse collapse"
+                  role="tabpanel"
+                  aria-labelledby="heading2"
+                >
+                  <div className="panel-body px-3 mb-4">
+                    <p className="text-light">Solana</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

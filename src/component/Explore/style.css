@@ -1,0 +1,33 @@
+.explore {
+  min-height: 100vh;
+  background-color: #795dd1;
+}
+
+.explore h4 {
+  padding-top: 5px;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+}
+
+.explore h1 {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+.explore span img {
+  margin-bottom: 15px;
+}
+
+.cardExplore {
+  background-color: #fefaef;
+  color: black !important;
+  padding: 0px 30px;
+  /* padding: 10px; */
+  border-radius: 10px;
+}
+
+.explore p {
+  color: black;
+  padding-bottom: 5px;
+}
