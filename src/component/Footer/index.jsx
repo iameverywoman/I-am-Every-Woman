@@ -12,7 +12,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fab fa-discord"></i>
+            <i class="fab fa-discords"></i>
           </a>
           <a
             href="https://twitter.com/Imeverywomannft"
