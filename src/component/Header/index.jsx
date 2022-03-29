@@ -72,7 +72,7 @@ export default function Header() {
               <h1>
                 I am <span style={{ color: "#f6037f" }}>Every Woman</span>
               </h1>
-              <p className="text-center">This was made by Amber Billionaire.</p>
+              <p className="text-center">This was made by women On the move</p>
 
               {/* countdown */}
               <div className="countdown row justify-content-md-center">
