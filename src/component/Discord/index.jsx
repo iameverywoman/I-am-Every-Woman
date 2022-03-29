@@ -11,7 +11,7 @@ export default function Discord() {
         announcements
       </p>
       <div>
-        <a href="https://discord.gg/NHjDtm7N" className="mt-3">
+        <a href="https://discord.gg/nq5zZ8DD" className="mt-3">
           <div className="button_slide slide_down mx-3">Discord</div>
         </a>
         <a href="https://twitter.com/Imeverywomannft" className="mt-3">

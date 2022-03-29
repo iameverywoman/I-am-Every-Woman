@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import About from "../About";
-import Explore from "../Explore";
+// import Explore from "../Explore";
 import Footer from "../Footer";
 import Vid from "../Vid";
 import Discord from "../Discord";
@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <About />
       <Vid />
-      <Explore />
+      {/* <Explore /> */}
       <Discord />
       <Faq />
       <Footer />

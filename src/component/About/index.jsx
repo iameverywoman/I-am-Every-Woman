@@ -36,7 +36,7 @@ export default function About() {
                 </p>
               </div>
               <div>
-                <h4>What We Do</h4>
+                <h4>Our Vision</h4>
                 <p className="text-gray-1 caption-text">
                   We are all about finding an even field for women. We
                   understand that the world is developing yet, equality and
@@ -46,7 +46,7 @@ export default function About() {
                   community is treated as equals.
                 </p>
               </div>
-              <div>
+              {/* <div>
                 <h4>Our Vision</h4>
                 <p className="text-gray-1 caption-text">
                   Our vision is for every creator on our NFT Platform to be
@@ -56,7 +56,7 @@ export default function About() {
                   creators to be discovered by big names in the NFT community.
                   There will be maximum.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -49,7 +49,7 @@ export default function Header() {
               </a>
               <a
                 className="nav-link font-weight-bolder text-light"
-                href="https://discord.gg/NHjDtm7N"
+                href="https://discord.gg/nq5zZ8DD"
               >
                 <i class="fab fa-discord"></i>
               </a>
