@@ -21,7 +21,7 @@ $(document).ready(function () {
   }
 
   // countdown
-  var countDownDate = new Date("Mar 30, 2021 20:00:00 UTC").getTime();
+  var countDownDate = new Date("May 8, 2022 20:00:00 UTC").getTime();
   var x = setInterval(function () {
     var now = new Date().getTime();
     var distance = countDownDate - now;
