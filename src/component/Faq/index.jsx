@@ -44,7 +44,7 @@ export default function Faq() {
                   aria-labelledby="heading0"
                 >
                   <div className="panel-body px-3 mb-4">
-                    <p className="text-light">0.88 SOL</p>
+                    <p className="text-light">TBA (We will make it public 2 week before mint)</p>
                   </div>
                 </div>
               </div>
