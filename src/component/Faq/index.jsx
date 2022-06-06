@@ -145,7 +145,7 @@ export default function Faq() {
                   aria-labelledby="heading3"
                 >
                   <div className="panel-body px-3 mb-4">
-                    <p className="text-light">31 Mar 2022 20:00:00 UTC</p>
+                    <p className="text-light">16 July 2022 20:00:00 UTC</p>
                   </div>
                 </div>
               </div>
