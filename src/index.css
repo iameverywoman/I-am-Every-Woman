@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 @font-face {
-  font-family: Consolas;
+  font-family: verdana;
   src: url("./assets/Chapeau-Light.woff");
 }
 
@@ -13,7 +13,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Consolas", sans-serif;
+  font-family: "verdana", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #ffffff;
