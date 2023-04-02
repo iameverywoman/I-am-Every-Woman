@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=consolas+Sans:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=consolas:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=balsamiq+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=roboto+mono:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 @font-face {
-  font-family:consolas;
+  font-family:chapeau;
   src: url("./assets/consolas-Light.woff");
 }
 
@@ -13,7 +13,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Times, Times New Roman, serif",serif;
+  font-family: "chapeau",sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #ffffff;
